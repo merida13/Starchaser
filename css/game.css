@@ -1,0 +1,31 @@
+.background    { background-image: url(../img/background.png);
+			background-attachment: fixed;
+			background-position: fixed;
+			background-repeat: no-repeat;
+			background-size: 100%
+			table-layout: fixed;
+            border-spacing: 0;   }
+.background td { padding: 0;          }
+.tar          { background-image: url(../img/tar.png); }
+.wall          { background-image: url(../img/grass.png); }
+
+.actor  { position: absolute;  }
+.player { background-image: url(../img/player.png); }
+.playerleft { background-image: url(../img/playerleft.png); }
+.playerjump { background-image: url(../img/playerjump.png); }
+
+.egg { background-image: url(../img/egg.png); }
+.coin { background-image: url(../img/bone.png); }
+
+.enemy { background-image: url(../img/blackhole.gif); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
